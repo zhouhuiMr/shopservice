@@ -11,6 +11,7 @@ import com.project.object.clientUser;
 
 @Service(
 		version="1.0.0",
+		timeout = 10000,
 		interfaceName="manageClientUser",
 		application = "${dubbo.application.id}",
 		protocol = "${dubbo.protocol.id}",

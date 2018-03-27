@@ -9,6 +9,7 @@ import com.project.object.managers;
 
 @Service(
 		version="1.0.0",
+		timeout = 10000,
 		interfaceName="managerOperate",
 		application = "${dubbo.application.id}",
 		protocol = "${dubbo.protocol.id}",
